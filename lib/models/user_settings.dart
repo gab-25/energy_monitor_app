@@ -56,6 +56,7 @@ class UserSettings {
               'token_type': shellyCloud!.tokenType,
               'expires_in': shellyCloud!.expiresIn,
               'url': shellyCloud!.url,
+              'device_id': shellyCloud!.deviceId,
             }
           : null,
       'power': power != null
